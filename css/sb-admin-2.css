@@ -9785,6 +9785,14 @@ a:focus {
   flex: 1 0 auto;
 }
 
+.content-margin {
+  margin-left: 14rem;
+}
+
+.content-margin.toggled {
+  margin-left: 6.5rem;
+}
+
 .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -10294,8 +10302,10 @@ a:focus {
 }
 
 .sidebar {
+  position: fixed;
   width: 6.5rem;
   min-height: 100vh;
+  z-index: 100;
 }
 
 .sidebar .nav-item {
