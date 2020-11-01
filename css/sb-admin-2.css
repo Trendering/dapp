@@ -9793,6 +9793,16 @@ a:focus {
   margin-left: 6.5rem;
 }
 
+@media (max-width: 767.98px) {
+  .content-margin {
+    margin-left: 6.5rem;
+  }
+  
+  .content-margin.toggled {
+    margin-left: 0rem;
+  }
+}
+
 .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
