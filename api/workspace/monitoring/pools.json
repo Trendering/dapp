@@ -1,0 +1,146 @@
+<!-- START CONTAINER -->
+        <div class="container-fluid">
+
+          
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Monitoring: <i class="fas fa-fw fa-tint"></i> Pools</h1>
+            <span>🕵️‍♀️ ALWAYS DO YOUR OWN RESEARCH FIRST</span>
+          </div>
+
+          <div class="row">
+
+            <div class="col-xl-12">
+              <div class="card shadow mt-4 mb-0">
+                <div class="card-header pb-0 d-flex flex-row align-items-center justify-content-between">
+                  
+                  <ul class="nav nav-tabs" id="tokensTab" role="tablist" style="margin-bottom: -1px">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="pools-new-tab" data-toggle="tab" href="#pools-new" role="tab" aria-controls="pools-new" aria-selected="true">New</a>
+                    </li>
+                    <!--
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="pools-trending-tab" data-toggle="tab" href="#pools-trending" role="tab" aria-controls="pools-trending" aria-selected="false">Trending</a>
+                    </li>
+                    -->
+                  </ul>
+
+                </div>
+                
+                <div class="card-body table-responsive">
+                  
+                  <div class="tab-content" id="tokensTabContent">
+                    <div class="tab-pane fade show" id="pools-trending" role="tabpanel" aria-labelledby="trending-tab">
+                      ...
+                    </div>
+
+                    <div class="tab-pane fade show active" id="pools-new" role="tabpanel" aria-labelledby="new-tab">
+
+                      <div class="card shadow mb-4">
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                          <small class="m-0 text-muted"><i class="fas fa-fw fa-stopwatch"></i> 09/18/2020 12:32:02 UTC</small>
+                        </div>
+                        
+                        <div class="card-body">
+
+                          <div class="row">
+                            <div class="col-md-10">
+                              <div class="media">
+                                <img class="token-logo mr-3" src="/img/trnd-eye.png" style="opacity: 0.25; border-radius: 50%" width="48" height="48">
+                                <img class="token-logo mr-3" src="/img/trnd-eye.png" style="opacity: 0.25; border-radius: 50%; margin-left: -48px; margin-top: 24px" width="48" height="48">
+                                <div class="media-body">
+                                  <h5 class="mt-0">Token A + Token B (ABC-DEF) <!-- &nbsp; <small class="text-success"><i class="fas fa-check-circle"></i> Verified</small> --></h5>
+                                  
+                                  <p>
+                                    <a href="#" target="_blank"><i class="fas fa-info-circle"></i> Etherscan</a>
+                                    &nbsp;
+                                    <a href="#" target="_blank"><i class="fas fa-search"></i> Google ABC</a>
+                                    &nbsp;
+                                    <a href="#" target="_blank"><i class="fas fa-search"></i> Google DEF</a>
+                                  </p>
+
+                                  <p>
+                                    Pool supply: <b>10,000 ABC</b> + <b>100 DEF</b>. Starting price: <b>100 ABC per 1 DEF</b>.<br>
+                                    Initial hodlers: <b>ABC: 2</b> + <b>DEF: 2</b>.
+                                  </p>
+                                  
+                                  <p>
+                                    <a href="#" target="_blank" class="text-success"> <i class="fas fa-check"></i> View ABC Contract</a>
+                                    &nbsp;&nbsp;
+                                    <a href="#" target="_blank" class="text-success"> <i class="fas fa-check"></i> View DEF Contract</a>
+                                    &nbsp;&nbsp;
+                                    <a href="#" target="_blank" class="text-success"> <i class="fas fa-chart-line"></i> Trade this Pool</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <!--
+                            <div class="col-md-2 text-center">
+                              <button type="button" class="btn btn-outline-success btn-block mb-0">👍 Invest</button>
+                              <button type="button" class="btn btn-success btn-block mt-1 mb-1"><h2 class="mt-2 mb-2">23</h2></button>
+                              <button type="button" class="btn btn-outline-danger btn-block mt-0">👎 Avoid</button>
+                            </div>
+                            -->
+                            <div class="col-md-12">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="text-center">
+                                    <a href="#" class="btn btn-light btn-sm" style="margin-bottom: -3.3rem">ABC Code Header</a>
+                                    <hr />
+                                  </div>
+                                  <br />
+                                  <small><pre><code>
+        pragma solidity ^0.6.5;
+
+
+        // SPDX-License-Identifier: MIT
+        /*
+        * @dev Provides information about the current execution context, including the
+        * sender of the transaction and its data. While these are generally available
+        * via msg.sender and msg.data, they should not be accessed in such a direct
+        * manner, since when dealing with GSN meta-transactions the account sending and
+        * paying for execution may not be the actual sender (as far as an application
+        * is concerned).
+        *
+        * This co
+                                  </code></pre></small>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="text-center">
+                                    <a href="#" class="btn btn-light btn-sm" style="margin-bottom: -3.3rem">DEF Code Header</a>
+                                    <hr />
+                                  </div>
+                                  <br />
+                                  <small><pre><code>
+        pragma solidity ^0.6.5;
+
+
+        // SPDX-License-Identifier: MIT
+        /*
+        * @dev Provides information about the current execution context, including the
+        * sender of the transaction and its data. While these are generally available
+        * via msg.sender and msg.data, they should not be accessed in such a direct
+        * manner, since when dealing with GSN meta-transactions the account sending and
+        * paying for execution may not be the actual sender (as far as an application
+        * is concerned).
+        *
+        * This co
+                                  </code></pre></small>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- END CONTAINER -->

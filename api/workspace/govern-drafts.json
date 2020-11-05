@@ -1,0 +1,107 @@
+<!-- START CONTAINER -->
+        <div class="container-fluid">
+
+          
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Governance: Drafts</h1>
+            <span>👮 <a href="https://trendering.com/dev05/" target="_blank">How to use the Trendering DAO?</a></span>
+          </div>
+
+          
+          <div class="row">
+
+            <div class="col-xl-8">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-success"><i class="fas fa-fw fa-file"></i> New Trendering Improvement Draft</h6>
+                </div>
+                
+                <div class="card-body table-responsive">
+
+                  <form id="rfc-tip-01" class="rfc-form">
+                    <input type="hidden" name="tip" value="new" class="rfc-tip" />
+
+                    <p>
+                      <small class="text-gray-500">By submitting this draft you put the concerning matter under an open RFC. You can adjust your draft in response to the comments before you submit the final proposal. Each address can submit one proposal at a time.</small>
+                    </p>
+
+                    <div class="form-group">
+                      <textarea class="form-control rfc-comment" rows="5" placeholder="Type your draft here..."></textarea>
+                    </div>
+
+                    <input type="submit" class="btn btn-success" value="Submit Draft" />
+                  </form>
+
+                  <div id="rfc-tip-01-comments">
+                    <!-- {tip_01_comments} -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <hr />
+
+          <div class="row">
+
+            <div class="col-xl-12">
+              <div class="card shadow mt-4 mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary"><i class="fas fa-fw fa-list"></i> Trendering Improvement Draft #02</h6>
+                </div>
+                
+                <div class="card-body table-responsive">
+                  <!-- <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">To vote <b>FOR</b> this proposal, send any amount of xTRND you wish to:<br /><code>0x6cCf3239820E1B598759b48b8049189e55477C44</code></p>
+                      <p class="card-text">To vote <b>AGAINST</b> this proposal, send any amount of xTRND you wish to:<br /><code>0x40434ef96bcCeeA96f168311BF4Ac64e7C730EA3</code></p>
+                      <p><small>The contract with the most xTRND by 9/11/2020 13:00 UTC wins. Until then, all xTRND in both contracts are time-locked. When the time-lock expires, all xTRND will be returned to the staking rewards pool.</small></p>
+                    </div>
+                  </div> -->
+
+                  <p>
+                    <b>Lorem ipsum dolor sit amet</b>
+                    <br />
+                    <small class="text-gray-500">0xf0b699A8559A3fFAf72f1525aBe14CebcD1De5Ed</small>
+                  </p>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper lorem in tempus cursus. Donec cursus eu turpis ac accumsan. Duis tincidunt porta sodales. Vestibulum augue justo, cursus ut mauris in, posuere varius elit. Morbi id blandit odio, non luctus orci. Donec at convallis mauris. Cras at lorem neque. Donec eget euismod velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur vestibulum sem ac nibh lobortis, sed rhoncus risus sagittis. Nam interdum sodales quam volutpat porttitor. Fusce mattis erat porttitor libero sodales efficitur ac non lorem. Suspendisse viverra quam ac velit efficitur scelerisque.
+                  </p>
+
+                  <p>
+                    C.
+                  </p>
+
+                  <hr />
+
+                  <form id="rfc-tip-01" class="rfc-form">
+                    <input type="hidden" name="tip" value="01" class="rfc-tip" />
+
+                    <p>
+                      <b>Request For Comments</b>
+                      <br />
+                      <small class="text-gray-500">RFC gives each connected address an option to express a single opinion. To update or change your opinion simply submit your comment again. This is not a chat! Every address can post only one message.</small>
+                    </p>
+
+                    <div class="form-group">
+                      <textarea class="form-control rfc-comment" rows="5" placeholder="Type your comment here..."></textarea>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary" value="Submit Comment" />
+                  </form>
+
+                  <div id="rfc-tip-01-comments">
+                    <!-- {tip_01_comments} -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <br /><br />
+
+        </div>
+        <!-- END CONTAINER -->

@@ -1,0 +1,9 @@
+{
+  "result": "OK",
+  "ignition": "0x000dEaD",
+  "balance": {
+    "trnd": "13",
+    "xtrnd": "1000",
+    "univ2": "2.13"
+  }
+}

@@ -1,0 +1,119 @@
+<!-- START CONTAINER -->
+        <div class="container-fluid">
+
+          
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Control: Dashboard</h1>
+            <span>👩‍🌾 <a href="https://trendering.com/dev02/" target="_blank">How to join TRND staking to farm xTRND?</a></span>
+          </div>
+
+          
+          <div class="row">
+
+            <div class="col-xl-3 col-md-4 mb-4">
+              <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold mb-1">TRND Balance</div>
+                      <div class="h4 mb-0 font-weight-bold text-gray-800">{balance_trnd} <small>TRND</small></div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-key fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4 mb-4">
+              <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold mb-1">xTRND Balance</div>
+                      <div class="h4 mb-0 font-weight-bold text-gray-800">{balance_xtrnd} <small>xTRND</small></div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-gas-pump fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-6 col-md-4 mb-4">
+              <div class="card border-left-secondary shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="mb-0 text-gray-800">Join us in the <a href="https://telegram.me/collablandbot?start=recBnzGalyQoVZqot_-tpc"><b>Trendering Private</b></a> telegram group for people with the Dapp access holding at least 17 TRND.</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-comments-dollar fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <hr />
+
+          <div class="row">
+
+            <div class="col-xl-12">
+              <div class="card shadow mt-4 mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary"><i class="fas fa-fw fa-list"></i> Changelog</h6>
+                </div>
+                
+                <div class="card-body table-responsive">
+                  <p><b>9/18/2020</b></p>
+
+                  <p>
+                    - Dapp v2 demo<br />
+                    - fixed minor issues
+                  </p>
+
+                  <hr />
+
+                  <p><b>9/4/2020</b></p>
+
+                  <p>
+                    - added Governance<br />
+                    - added dapp dev stub on GitHub<br />
+                    - added ERC20 generator detection<br />
+                    - fixed minor issues
+                  </p>
+
+                  <hr />
+
+                  <p><b>8/18/2020</b></p>
+
+                  <p>
+                    - fixed annoying auth errors<br />
+                    - added pool status (rugged or not)<br />
+                    - added detection for token icon<br />
+                    - added Mainnet Monitoring
+                  </p>
+
+                  <hr />
+
+                  <p><b>8/14/2020</b></p>
+
+                  <p>
+                    - first release of dapp<br />
+                    - dapp login with MetaMask<br />
+                    - Staking Leaderboard inside dapp<br />
+                    - Uniswap Monitoring of new listings
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- END CONTAINER -->

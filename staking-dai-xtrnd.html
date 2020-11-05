@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Trendering Dashboard</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  
+  <div id="wrapper">
+
+    
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled" id="accordionSidebar">
+
+      
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="https://trendering.com">
+        <div class="sidebar-brand-icon">
+          <img src="../trnd-ico-256-transparent.png" width="48" height="48" alt="TRND" />
+        </div>
+        <div class="sidebar-brand-text mx-3">Trendering</div>
+      </a>
+
+      
+      <hr class="sidebar-divider my-0">
+
+      
+      <li class="nav-item">
+        <a class="nav-link" href="https://dapp.trendering.com">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Dapp</span></a>
+      </li>
+
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseUtilities">
+          <i class="fas fa-fw fa-piggy-bank"></i>
+          <span>Staking</span>
+        </a>
+        <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <div class="text-gray-500 text-xs font-weight-bold text-uppercase pl-2 pr-2">
+              Incentivised
+              <hr class="mt-0 mb-2" />
+            </div>
+
+            <a class="collapse-item" href="/staking-dai-trnd.html"><i class="fas fa-fw fa-chess-rook"></i> &nbsp; DAI-TRND</a>
+            <a class="collapse-item" href="/staking-dai-xtrnd.html"><i class="fas fa-fw fa-chess-bishop"></i> &nbsp; DAI-xTRND</a>
+            
+            <div class="mt-3 text-gray-500 text-xs font-weight-bold text-uppercase pl-2 pr-2">
+              On Hold
+              <hr class="mt-0 mb-2" />
+            </div>
+
+            <a class="collapse-item" href="/staking.html"><i class="fas fa-fw fa-chess-king"></i> &nbsp; ETH-TRND</a>
+          </div>
+        </div>
+      </li>
+
+      
+      <hr class="sidebar-divider d-none d-md-block">
+
+      
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    
+
+    
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      
+      <div id="content">
+
+        
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+        </nav>
+<!-- START CONTAINER -->
+        <div class="container-fluid">
+
+          
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Staking: <i class="fas fa-fw fa-chess-bishop"></i> DAI-xTRND</h1>
+            <small>
+              <a href="https://uniswap.exchange/add/0x6b175474e89094c44da98b954eedeac495271d0f-0xed5b8ec6b1f60a4b08ef72fb160ffe422064c227" target="_blank"><i class="fas fa-fw fa-tint"></i> Add Liquidity</a>
+              &nbsp;
+              <a href="https://uniswap.info/pair/0xc21af022b75132a9b6c8f5edb72d4b9a8313cd6d" target="_blank"><i class="fas fa-fw fa-chess-knight"></i> View Pool</a>
+            </small>
+          </div>
+
+          
+          <div class="row">
+
+            <div class="col-xl-4 col-md-4 mb-4">
+              <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total stakers</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">35</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-users fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-md-4 mb-4">
+              <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Time remaining</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">745 <small>hours</small></div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-stopwatch fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-md-4 mb-4">
+              <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Pool rewards</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">2,000 <small>TRND</small></div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-chart-pie fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-xl-12">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary"><i class="fas fa-fw fa-list"></i> Leaderboard</h6>
+                  <small>14:02:03<br />10/30/2020</small>
+                </div>
+                
+                <div class="card-body table-responsive">
+                  
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Holding Address</th>
+                        <th scope="col">Staking Now</th>
+                        <th scope="col">Farming Time</th>
+                        <th scope="col">Rewards Projection</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+
+                      <tr>
+                        <td>1.</td>
+                        <td><code><a href="https://etherscan.io/address/0x640c0ba0edff9ec5f16581e590ac11c58b78f6b0">0x640c0ba0edff9ec5f16581e590ac11c58b78f6b0</a></code></td>
+                        <td><b>19.31 %</b> <small>(14638.7110 UNI-V2)</small></td>
+                        <td><b>61.6 </b> <small>hours</small></td>
+                        <td><b>15.74</b> <small>% (~314.78 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>2.</td>
+                        <td><code><a href="https://etherscan.io/address/0xbfd2c7b0e0e18558439448c2dfd652d8cea6f97e">0xbfd2c7b0e0e18558439448c2dfd652d8cea6f97e</a></code></td>
+                        <td><b>10.89 %</b> <small>(8252.3743 UNI-V2)</small></td>
+                        <td><b>75.5 </b> <small>hours</small></td>
+                        <td><b>11.92</b> <small>% (~238.32 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>3.</td>
+                        <td><code><a href="https://etherscan.io/address/0xbb6c61c862624e6f24dccce55881954aa73fea4a">0xbb6c61c862624e6f24dccce55881954aa73fea4a</a></code></td>
+                        <td><b>8.72 %</b> <small>(6609.1313 UNI-V2)</small></td>
+                        <td><b>76.3 </b> <small>hours</small></td>
+                        <td><b>9.87</b> <small>% (~197.41 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>4.</td>
+                        <td><code><a href="https://etherscan.io/address/0x4e7d934690ca8d2b8b8f48842595b5cae86def37">0x4e7d934690ca8d2b8b8f48842595b5cae86def37</a></code></td>
+                        <td><b>10.61 %</b> <small>(8041.0211 UNI-V2)</small></td>
+                        <td><b>66.8 </b> <small>hours</small></td>
+                        <td><b>9.6</b> <small>% (~192.07 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>5.</td>
+                        <td><code><a href="https://etherscan.io/address/0x09d4cc177663c056be397b993c853e83f1ba3935">0x09d4cc177663c056be397b993c853e83f1ba3935</a></code></td>
+                        <td><b>5.71 %</b> <small>(4331.7607 UNI-V2)</small></td>
+                        <td><b>76.6 </b> <small>hours</small></td>
+                        <td><b>6.6</b> <small>% (~131.96 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>6.</td>
+                        <td><code><a href="https://etherscan.io/address/0xaf306cbaecde1e4d958d58c74b6fdac34cc9cfc2">0xaf306cbaecde1e4d958d58c74b6fdac34cc9cfc2</a></code></td>
+                        <td><b>5.58 %</b> <small>(4231.9778 UNI-V2)</small></td>
+                        <td><b>75.6 </b> <small>hours</small></td>
+                        <td><b>6.14</b> <small>% (~122.76 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>7.</td>
+                        <td><code><a href="https://etherscan.io/address/0x95551cf63f5794287ab2ab4ffdb3b07b3df31702">0x95551cf63f5794287ab2ab4ffdb3b07b3df31702</a></code></td>
+                        <td><b>4.72 %</b> <small>(3577.7280 UNI-V2)</small></td>
+                        <td><b>76.6 </b> <small>hours</small></td>
+                        <td><b>5.45</b> <small>% (~108.99 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>8.</td>
+                        <td><code><a href="https://etherscan.io/address/0xe20a4f1e92dc89c17388886d37b2ed58f07e2f29">0xe20a4f1e92dc89c17388886d37b2ed58f07e2f29</a></code></td>
+                        <td><b>3.06 %</b> <small>(2321.9940 UNI-V2)</small></td>
+                        <td><b>76.1 </b> <small>hours</small></td>
+                        <td><b>3.43</b> <small>% (~68.59 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>9.</td>
+                        <td><code><a href="https://etherscan.io/address/0x590dfbd53781c6d9d8404eb8e1847fea1afad319">0x590dfbd53781c6d9d8404eb8e1847fea1afad319</a></code></td>
+                        <td><b>3.12 %</b> <small>(2368.0088 UNI-V2)</small></td>
+                        <td><b>74.8 </b> <small>hours</small></td>
+                        <td><b>3.35</b> <small>% (~67.08 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>10.</td>
+                        <td><code><a href="https://etherscan.io/address/0xf0b699a8559a3ffaf72f1525abe14cebcd1de5ed">0xf0b699a8559a3ffaf72f1525abe14cebcd1de5ed</a></code></td>
+                        <td><b>1.86 %</b> <small>(1412.3134 UNI-V2)</small></td>
+                        <td><b>77.5 </b> <small>hours</small></td>
+                        <td><b>2.91</b> <small>% (~58.12 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>11.</td>
+                        <td><code><a href="https://etherscan.io/address/0xc19f7114252b4cacd1c3fe5fe6465f0480f698a7">0xc19f7114252b4cacd1c3fe5fe6465f0480f698a7</a></code></td>
+                        <td><b>2.43 %</b> <small>(1841.8372 UNI-V2)</small></td>
+                        <td><b>74.6 </b> <small>hours</small></td>
+                        <td><b>2.6</b> <small>% (~51.95 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>12.</td>
+                        <td><code><a href="https://etherscan.io/address/0x32a88f097056c773569abb6a3cf8d88228466e00">0x32a88f097056c773569abb6a3cf8d88228466e00</a></code></td>
+                        <td><b>0.00 %</b> <small>(0.0000 UNI-V2)</small></td>
+                        <td><b>32.2 </b> <small>hours</small></td>
+                        <td><b>2.55</b> <small>% (~50.98 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>13.</td>
+                        <td><code><a href="https://etherscan.io/address/0x62914c1bf570657c30a7958b38801a500b287a0f">0x62914c1bf570657c30a7958b38801a500b287a0f</a></code></td>
+                        <td><b>2.16 %</b> <small>(1634.8699 UNI-V2)</small></td>
+                        <td><b>70.7 </b> <small>hours</small></td>
+                        <td><b>2.12</b> <small>% (~42.41 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>14.</td>
+                        <td><code><a href="https://etherscan.io/address/0x2c175a526248182ac1e6a0c4fe14f9949b2ab69b">0x2c175a526248182ac1e6a0c4fe14f9949b2ab69b</a></code></td>
+                        <td><b>1.86 %</b> <small>(1412.9340 UNI-V2)</small></td>
+                        <td><b>73.3 </b> <small>hours</small></td>
+                        <td><b>1.88</b> <small>% (~37.53 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>15.</td>
+                        <td><code><a href="https://etherscan.io/address/0x9f3ce0ad29b767d809642a53c2bccc9a130659d7">0x9f3ce0ad29b767d809642a53c2bccc9a130659d7</a></code></td>
+                        <td><b>1.54 %</b> <small>(1169.7930 UNI-V2)</small></td>
+                        <td><b>74.9 </b> <small>hours</small></td>
+                        <td><b>1.66</b> <small>% (~33.26 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>16.</td>
+                        <td><code><a href="https://etherscan.io/address/0xc32290f2e0a8405a2bd8db8863237de2f534f1c0">0xc32290f2e0a8405a2bd8db8863237de2f534f1c0</a></code></td>
+                        <td><b>1.52 %</b> <small>(1152.5750 UNI-V2)</small></td>
+                        <td><b>75.2 </b> <small>hours</small></td>
+                        <td><b>1.65</b> <small>% (~33 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>17.</td>
+                        <td><code><a href="https://etherscan.io/address/0x58024b6c1005de40eac2d4c06bc947ebf2a302af">0x58024b6c1005de40eac2d4c06bc947ebf2a302af</a></code></td>
+                        <td><b>1.25 %</b> <small>(946.9367 UNI-V2)</small></td>
+                        <td><b>76.8 </b> <small>hours</small></td>
+                        <td><b>1.51</b> <small>% (~30.12 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>18.</td>
+                        <td><code><a href="https://etherscan.io/address/0x11840452dd58723e4fa5d88e82436052fa3a8c25">0x11840452dd58723e4fa5d88e82436052fa3a8c25</a></code></td>
+                        <td><b>1.24 %</b> <small>(940.3564 UNI-V2)</small></td>
+                        <td><b>76.7 </b> <small>hours</small></td>
+                        <td><b>1.46</b> <small>% (~29.28 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>19.</td>
+                        <td><code><a href="https://etherscan.io/address/0x94dbb3db4102181186fd127e6f81564d1d4a20a3">0x94dbb3db4102181186fd127e6f81564d1d4a20a3</a></code></td>
+                        <td><b>2.13 %</b> <small>(1612.9483 UNI-V2)</small></td>
+                        <td><b>45.5 </b> <small>hours</small></td>
+                        <td><b>1.27</b> <small>% (~25.37 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>20.</td>
+                        <td><code><a href="https://etherscan.io/address/0x48ee69490345c7080240db090e65a4ae1049e16a">0x48ee69490345c7080240db090e65a4ae1049e16a</a></code></td>
+                        <td><b>1.99 %</b> <small>(1509.6394 UNI-V2)</small></td>
+                        <td><b>47.8 </b> <small>hours</small></td>
+                        <td><b>1.25</b> <small>% (~24.99 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>21.</td>
+                        <td><code><a href="https://etherscan.io/address/0x4d3591d0c03fb4c752e838c74302540ed99549ff">0x4d3591d0c03fb4c752e838c74302540ed99549ff</a></code></td>
+                        <td><b>1.11 %</b> <small>(842.6861 UNI-V2)</small></td>
+                        <td><b>74.6 </b> <small>hours</small></td>
+                        <td><b>1.19</b> <small>% (~23.78 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>22.</td>
+                        <td><code><a href="https://etherscan.io/address/0x55a337aa56095cf45213d97b1c4c4260d6d8c6e0">0x55a337aa56095cf45213d97b1c4c4260d6d8c6e0</a></code></td>
+                        <td><b>1.03 %</b> <small>(778.6401 UNI-V2)</small></td>
+                        <td><b>74.2 </b> <small>hours</small></td>
+                        <td><b>1.09</b> <small>% (~21.78 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>23.</td>
+                        <td><code><a href="https://etherscan.io/address/0x727511d8ed7849bae82647f71875cc97faf9ff3e">0x727511d8ed7849bae82647f71875cc97faf9ff3e</a></code></td>
+                        <td><b>0.93 %</b> <small>(708.5676 UNI-V2)</small></td>
+                        <td><b>70.5 </b> <small>hours</small></td>
+                        <td><b>0.92</b> <small>% (~18.3 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>24.</td>
+                        <td><code><a href="https://etherscan.io/address/0x7bb9635e750a100d8c73cf88114175b1e346d495">0x7bb9635e750a100d8c73cf88114175b1e346d495</a></code></td>
+                        <td><b>0.98 %</b> <small>(744.8036 UNI-V2)</small></td>
+                        <td><b>46.3 </b> <small>hours</small></td>
+                        <td><b>0.6</b> <small>% (~11.94 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>25.</td>
+                        <td><code><a href="https://etherscan.io/address/0xe16d2368d65d49895a0e53d44091506ba7cdf78f">0xe16d2368d65d49895a0e53d44091506ba7cdf78f</a></code></td>
+                        <td><b>1.22 %</b> <small>(921.1420 UNI-V2)</small></td>
+                        <td><b>26.2 </b> <small>hours</small></td>
+                        <td><b>0.42</b> <small>% (~8.31 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>26.</td>
+                        <td><code><a href="https://etherscan.io/address/0x0aaf38602f6f5778ddd5f4781592b9574d5fbb7e">0x0aaf38602f6f5778ddd5f4781592b9574d5fbb7e</a></code></td>
+                        <td><b>0.60 %</b> <small>(452.6967 UNI-V2)</small></td>
+                        <td><b>51.6 </b> <small>hours</small></td>
+                        <td><b>0.41</b> <small>% (~8.11 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>27.</td>
+                        <td><code><a href="https://etherscan.io/address/0xdeb96eba5026eaf1363bfdb91dbf7ac361564308">0xdeb96eba5026eaf1363bfdb91dbf7ac361564308</a></code></td>
+                        <td><b>0.68 %</b> <small>(512.8662 UNI-V2)</small></td>
+                        <td><b>44.8 </b> <small>hours</small></td>
+                        <td><b>0.4</b> <small>% (~7.95 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>28.</td>
+                        <td><code><a href="https://etherscan.io/address/0xf964f058ff6fd8cb19afe60617c7b70d85c26fb0">0xf964f058ff6fd8cb19afe60617c7b70d85c26fb0</a></code></td>
+                        <td><b>0.55 %</b> <small>(420.3189 UNI-V2)</small></td>
+                        <td><b>48.6 </b> <small>hours</small></td>
+                        <td><b>0.35</b> <small>% (~7.07 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>29.</td>
+                        <td><code><a href="https://etherscan.io/address/0xb4367abe9d87c508eceb60c422cbbf8e34aa8dc9">0xb4367abe9d87c508eceb60c422cbbf8e34aa8dc9</a></code></td>
+                        <td><b>0.62 %</b> <small>(471.6316 UNI-V2)</small></td>
+                        <td><b>40.3 </b> <small>hours</small></td>
+                        <td><b>0.33</b> <small>% (~6.59 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>30.</td>
+                        <td><code><a href="https://etherscan.io/address/0xdff41a727313ad8ddb0e5b1786bceace5604953d">0xdff41a727313ad8ddb0e5b1786bceace5604953d</a></code></td>
+                        <td><b>0.28 %</b> <small>(209.7899 UNI-V2)</small></td>
+                        <td><b>75.3 </b> <small>hours</small></td>
+                        <td><b>0.3</b> <small>% (~6.03 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>31.</td>
+                        <td><code><a href="https://etherscan.io/address/0x95df382990b2ab34537a666c4668d7638a23c386">0x95df382990b2ab34537a666c4668d7638a23c386</a></code></td>
+                        <td><b>0.39 %</b> <small>(293.4188 UNI-V2)</small></td>
+                        <td><b>58.2 </b> <small>hours</small></td>
+                        <td><b>0.3</b> <small>% (~5.95 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>32.</td>
+                        <td><code><a href="https://etherscan.io/address/0xb1bf7756289eaa0988265884cf5b480111fc56eb">0xb1bf7756289eaa0988265884cf5b480111fc56eb</a></code></td>
+                        <td><b>0.22 %</b> <small>(163.8929 UNI-V2)</small></td>
+                        <td><b>76.8 </b> <small>hours</small></td>
+                        <td><b>0.26</b> <small>% (~5.22 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>33.</td>
+                        <td><code><a href="https://etherscan.io/address/0xf40be62ed5cd8edd283d8e843fb5d164a886b966">0xf40be62ed5cd8edd283d8e843fb5d164a886b966</a></code></td>
+                        <td><b>0.47 %</b> <small>(354.4474 UNI-V2)</small></td>
+                        <td><b>33.7 </b> <small>hours</small></td>
+                        <td><b>0.21</b> <small>% (~4.13 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>34.</td>
+                        <td><code><a href="https://etherscan.io/address/0x23264f16ae0d4ff244768b8d2ac4fadc5bfe445e">0x23264f16ae0d4ff244768b8d2ac4fadc5bfe445e</a></code></td>
+                        <td><b>0.25 %</b> <small>(192.9220 UNI-V2)</small></td>
+                        <td><b>50.2 </b> <small>hours</small></td>
+                        <td><b>0.17</b> <small>% (~3.36 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>35.</td>
+                        <td><code><a href="https://etherscan.io/address/0x44bedb6f3a8dd5bdf81d4140cce574070c53c112">0x44bedb6f3a8dd5bdf81d4140cce574070c53c112</a></code></td>
+                        <td><b>0.15 %</b> <small>(113.9714 UNI-V2)</small></td>
+                        <td><b>59.8 </b> <small>hours</small></td>
+                        <td><b>0.12</b> <small>% (~2.38 TRND)</small></td>
+                      </tr>
+  
+                      <tr>
+                        <td>36.</td>
+                        <td><code><a href="https://etherscan.io/address/0xced561031ef6bbe74b8c8a8dab9211889836a864">0xced561031ef6bbe74b8c8a8dab9211889836a864</a></code></td>
+                        <td><b>0.21 %</b> <small>(155.8538 UNI-V2)</small></td>
+                        <td><b>2.6 </b> <small>hours</small></td>
+                        <td><b>0.01</b> <small>% (~0.14 TRND)</small></td>
+                      </tr>
+  
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- END CONTAINER -->
+
+      </div>
+
+      
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>&copy; 2020 Trendering</span>
+          </div>
+        </div>
+      </footer>
+      
+
+    </div>
+    
+
+  </div>
+  
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+</body>
+
+</html>

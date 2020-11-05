@@ -1,0 +1,96 @@
+<!-- START CONTAINER -->
+        <div class="container-fluid">
+
+          
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Governance: Trendering DAO</h1>
+            <span>👮 <a href="https://trendering.com/dev05/" target="_blank">How to use the Trendering DAO?</a></span>
+          </div>
+
+          
+
+          <div class="row">
+
+            <div class="col-xl-8">
+              <div class="card shadow mt-4 mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary"><i class="fas fa-fw fa-list"></i> Trendering Improvement Proposal #01</h6>
+                </div>
+                
+                <div class="card-body table-responsive">
+                  <!-- <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">To vote <b>FOR</b> this proposal, send any amount of xTRND you wish to:<br /><code>0x6cCf3239820E1B598759b48b8049189e55477C44</code></p>
+                      <p class="card-text">To vote <b>AGAINST</b> this proposal, send any amount of xTRND you wish to:<br /><code>0x40434ef96bcCeeA96f168311BF4Ac64e7C730EA3</code></p>
+                      <p><small>The contract with the most xTRND by 9/11/2020 13:00 UTC wins. Until then, all xTRND in both contracts are time-locked. When the time-lock expires, all xTRND will be returned to the staking rewards pool.</small></p>
+                    </div>
+                  </div> -->
+
+                  <p>
+                    <b>Adjust the TRND requirement for the Trendering Private telegram group</b>
+                    <br />
+                    <small class="text-gray-500">0xf0b699A8559A3fFAf72f1525aBe14CebcD1De5Ed</small>
+                  </p>
+
+                  <p>
+                    At the time of creating this TIP there are 396 members in the Trendering Private telegram group. While the interest in the group is definitely a positive sign, in the long run it may not be sustainable. Therefore, I propose an adjustment mechanism to the TRND requirement that verifies group members, to maintain group's quality and exclusivity.
+                  </p>
+
+                  <p>
+                    The adjustment mechanism, codenamed "300 Spartans", would work as follows: the amount of members in the group is checked once a day and if the amount is higher than 300, the TRND requirement is increased by 1 token. This check repeats every day and the TRND requirement continues to increase daily until there are 300 members in the group.
+                  </p>
+
+                  <p>
+                    C.
+                  </p>
+
+                  <hr />
+
+                  <form id="rfc-tip-01" class="rfc-form">
+                    <input type="hidden" name="tip" value="01" class="rfc-tip" />
+
+                    <p>
+                      <b>Request For Comments</b>
+                      <br />
+                      <small class="text-gray-500">RFC gives each connected address an option to express a single opinion. To update or change your opinion simply submit your comment again. This is not a chat! Every address can post only one message.</small>
+                    </p>
+
+                    <div class="form-group">
+                      <textarea class="form-control rfc-comment" rows="5" placeholder="Type your comment here..."></textarea>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary" value="Submit Comment" />
+                  </form>
+
+                  <div id="rfc-tip-01-comments">
+                    <!-- {tip_01_comments} -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4">
+              <div class="card shadow mt-4 mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary"><i class="fas fa-fw fa-clock"></i> TIP-01 Status</h6>
+                </div>
+                
+                <div class="card-body table-responsive">
+                  <ul>
+                    <li><i class="fas fa-fw fa-check-circle"></i> Creation<br /><small class="text-gray-500">9/4/2020 13:00 UTC</small></li>
+                    <br />
+                    <li><i class="fas fa-fw fa-check-circle"></i> Request For Comments<br /><small class="text-gray-500">9/4/2020 13:01 UTC</small></li>
+                    <br />
+                    <li><i class="fas fa-fw fa-check-circle"></i> xTRND Voting<br /><small class="text-gray-500">9/10/2020 13:00 UTC</small></li>
+                    <br />
+                    <li><i class="fas fa-fw fa-check-circle"></i> <b>APPROVED</b><br /><small class="text-gray-500">9/11/2020 13:00 UTC</small></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <br /><br />
+
+        </div>
+        <!-- END CONTAINER -->
